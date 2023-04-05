@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(90, 54, 54);
 }
 
 .App-link {
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  background-color: rgb(235, 52, 137);
+}
+
+.prod {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  background-color: rgb(93, 170, 237);
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgb(227, 227, 15);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.i1, .i2, .i3 {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
